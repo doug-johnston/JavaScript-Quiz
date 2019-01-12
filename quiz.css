@@ -1,0 +1,138 @@
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+}
+
+h1{
+    font-size: 36px;
+}
+
+.question{
+    height: 400px;
+    background-color: gold;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+.answer{
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+button{
+    height: 100px;
+    width:200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    margin: 0px 25px 0px 25px;
+}
+button:hover{
+    height: 100px;
+    width:200px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+}
+button:active{
+    border:2px solid black;
+}
+.active{
+    height: 100px;
+    width:200px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+}
+ul{
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    color: gold;
+}
+
+header{
+    text-align: center;
+}
+#title{
+    color: gold;
+}
+
+a:link {
+    text-decoration: none;
+    color: white
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: gold
+}
+
+a:active {
+    text-decoration: none;
+}
+h2{
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+p{
+    padding-bottom: 50px;
+}
+h3{
+    padding-top: 50px;
+}
+.correct{
+    height: 400px;
+    background-color: limegreen;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+.correct button {
+    display: none;
+}
+.incorrect{
+    height: 400px;
+    background-color: red;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+.incorrect button {
+    display: none;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.selected{
+    height: 100px;
+    width:200px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+}
+#score_text{
+    padding-bottom: 10px;
+}
